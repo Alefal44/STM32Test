@@ -100,6 +100,11 @@ int main(void)
   /* USER CODE END 3 */
 }
 
+void MySeqFunction(void)
+{
+
+}
+
 //EXTI Line4 External Interrupt ISR Handler CallBackFunction
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
